@@ -13,7 +13,7 @@ a:link, a:visited {
 
 nav {
   height: 10vh;
-  background-color: #fafafa;
+  background-color: white;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
@@ -23,12 +23,11 @@ nav {
 .login {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
-  color: purple;
-  border: 2px solid black;
+  color: #393f86;
+  border: 1px solid black;
   border-radius: 12px;
-  display: block;
-  width: 100px;
-  background-color: white;
+  display: flex;
+  width: 110px;
   text-align: center;
   padding: 10px 20px;
 }
@@ -38,7 +37,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: teal;
+}
+header h1 {
+  color: #129be5;
+  border: 2px solid red;
+  font-size: 300%;
 }
 
 .iphone {
@@ -46,6 +49,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 800px;
 }
 
 .middle-text {
@@ -55,4 +59,14 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+h2 {
+  color: #393f86;
+  border: 2px solid yellow;
+  font-size: 0.9cm;
+}
+
+h3 {
+  color: #129be5;
 }

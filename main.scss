@@ -5,9 +5,10 @@ $font-darkblue-heading:"Roboto", sans-serif;
 $font-info:"Abel", sans-serif;
 
 $color-primary: lightblue;
-$color-secondary: purple;
+$color-secondary: rgb(57, 63, 134);
 $color-black: #333333;
-$color-white: #fafafa;
+$color-white: white;
+$color-third: rgb(18, 155, 229);
 
 * {
     margin: 0;
@@ -31,15 +32,15 @@ nav {
 }
 
 .login {
+
     font-family: $font-darkblue-heading;
     font-size: 30px;
     color: $color-secondary;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 12px;
 
-    display: block;
-    width: 100px;
-    background-color: white;
+    display: flex;
+    width: 110px;
     text-align: center;
     padding: 10px 20px;
 
@@ -51,7 +52,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: teal;
+
+    h1 {
+        color: $color-third;
+        border: 2px solid red;
+        font-size: 300%;
+        
+    }
 }
 
 .iphone {
@@ -59,6 +66,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 800px;
 }
 
 .middle-text {
@@ -68,6 +76,14 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
-    
+
+h2 {
+    color: $color-secondary;
+    border: 2px solid yellow;
+    font-size: 0.9cm;
+} 
+
+h3 {
+    color: $color-third;
+}
