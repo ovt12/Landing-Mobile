@@ -65,8 +65,30 @@ h2 {
   color: #393f86;
   border: 2px solid yellow;
   font-size: 0.9cm;
+  margin: 0.5cm;
 }
 
 h3 {
   color: #129be5;
+  font-size: 0.7cm;
+  margin: 0.5cm;
+}
+
+h4 {
+  color: #393f86;
+  font-size: 0.6cm;
+  margin: 0.5cm;
+}
+
+.button {
+  border: 2px solid black;
+  background-color: #393f86;
+  color: white;
+  border-radius: 12px;
+  font-size: 0.9cm;
+  width: 300px;
+  margin: 0.5cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
