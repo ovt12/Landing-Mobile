@@ -46,23 +46,22 @@ nav {
 
 }
 
-header {
 
-    border: 2px solid red;
+header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
     h1 {
         color: $color-third;
-        border: 2px solid red;
         font-size: 300%;
         
     }
 }
 
 .iphone {
-    border: 2px solid green;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +70,6 @@ header {
 
 .middle-text {
     height: 50vh;
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,7 +78,6 @@ header {
 
 h2 {
     color: $color-secondary;
-    border: 2px solid yellow;
     font-size: 0.9cm;
     margin: 0.5cm;
 } 
@@ -114,7 +111,6 @@ h4 {
 }
 
 .find {
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     height: 2cm;
@@ -125,7 +121,6 @@ h4 {
 
 
 .right {
-    border: 4px solid green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,7 +128,6 @@ h4 {
 }
 
 .left {
-    border: 4px solid pink;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -144,8 +138,6 @@ div {
     h5 {
         color: $color-secondary;
         font-size: 0.8cm;
-        font-family: $font-info;
-
         padding: 2cm;
     }
 }
@@ -155,18 +147,37 @@ section {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 4px solid green;
     }
 }
 
 .last-link {
     height: 10vh;
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1cm;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: $color-secondary;
+    margin: 1cm;
+    
+    
+}
+
+ul {
+    font-family: $font-info;
+    font-size: 0.9cm;
+    background-color: rgb(247, 247, 178);
+}
+
+
+
+
+
 
 
 
